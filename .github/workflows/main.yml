@@ -24,7 +24,7 @@ jobs:
           node-version-file: "package.json"
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-        #- run: pnpm playwright install chromium
+      - run: pnpm playwright install chromium
       - run: pnpm test
         env:
           CI: true
