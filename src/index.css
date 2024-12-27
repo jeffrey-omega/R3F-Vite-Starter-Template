@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark light;
+  background-color: #242424;
+  --primary-color: light-dark(#000, #fff);
+  --primary-background: light-dark(#f0f0f0, #1a1a1a);
+  --progress: 0;
+}
+
+html,
+body,
+#root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: none;
+  overscroll-behavior: none;
+  background-color: var(--primary-background);
+  user-select: none;
+}
+
+canvas {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--primary-color);
+    background-color: var(--primary-background);
+  }
+}
