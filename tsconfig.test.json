@@ -1,11 +1,19 @@
 {
+  "extends": "./tsconfig.json",
+  "include": ["./tests", "./src"],
   "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test.tsbuildinfo",
+    "composite": true,
     "target": "ESNext",
     "lib": ["esnext", "dom"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
-    "types": ["@vitest/browser/providers/playwright"],
+    "types": [
+      "@types/node",
+      "vitest/globals",
+      "@vitest/browser/providers/playwright"
+    ],
     "strict": true,
     "declaration": true,
     "noEmit": true,
