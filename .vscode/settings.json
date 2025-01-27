@@ -6,12 +6,5 @@
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "[yml, yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true
-  },
-  "yaml.schemas": {
-    "github-actions": ".github/workflows/*.yml"
-  }
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
