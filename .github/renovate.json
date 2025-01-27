@@ -2,6 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices", ":rebaseStalePrs"],
   "timezone": "Europe/Zurich",
+  "dependencyDashboardApproval": true,
+  "recreateWhen": "never",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
@@ -15,8 +17,6 @@
     {
       "description": "Prevent major updates",
       "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true,
-      "recreateWhen": "never",
       "automerge": false
     }
   ]
