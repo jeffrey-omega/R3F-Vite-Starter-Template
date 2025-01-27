@@ -12,7 +12,6 @@
 - [Drei](https://github.com/pmndrs/drei)
 - [Vite](https://vitejs.dev/)
 - [typescript](https://www.typescriptlang.org/)
-- [sass](https://sass-lang.com/)
 - [eslint](https://eslint.org/)
 
 ### Installation
