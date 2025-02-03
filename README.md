@@ -1,6 +1,15 @@
 # React Three Fiber Vite Starter Template
 
-![Product Screenshot](/public/screenshot.png)
+![Hero Image](./public/screenshot.png)
+
+<!--
+Free to edit and add more features to this template.
+<div align="center">
+   <img src="./public/screenshot1.png" width="32%">
+   <img src="./public/screenshot2.png" width="32%">
+   <img src="./public/screenshot3.png" width="32%">
+</div>
+-->
 
 ### Built With
 
