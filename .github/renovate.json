@@ -1,22 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", ":rebaseStalePrs"],
-  "timezone": "Europe/Zurich",
-  "dependencyDashboardApproval": true,
-  "recreateWhen": "never",
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true
-  },
-  "packageRules": [
-    {
-      "description": ["Automerge non-major updates"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "automerge": false
-    }
-  ]
+  "extends": ["github>jeffrey-omega/renovate-config"]
 }
