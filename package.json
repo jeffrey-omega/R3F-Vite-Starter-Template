@@ -30,7 +30,7 @@
     "three-stdlib": "^2.35.13"
   },
   "devDependencies": {
-    "@eslint/js": "9.20.0",
+    "@eslint/js": "9.24.0",
     "@playwright/test": "1.50.1",
     "@types/node": "22.14.0",
     "@types/react": "18.3.20",
@@ -38,7 +38,7 @@
     "@vitejs/plugin-react": "4.3.4",
     "@vitest/browser": "3.0.6",
     "@vitest/ui": "3.0.6",
-    "eslint": "9.20.1",
+    "eslint": "9.24.0",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "0.4.19",
     "globals": "16.0.0",
